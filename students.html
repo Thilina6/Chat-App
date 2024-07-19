@@ -92,6 +92,7 @@
         item.textContent = msg;
         messages.appendChild(item);
         window.scrollTo(0, document.body.scrollHeight);
+        sessionStorage.setItem("Teachers Messages",msg);
         });
         socket.on('connect',() =>{
           socket.emit('join',{room});
