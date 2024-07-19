@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Application</title>
+  <style>
+    body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      h1{
+        color: rgb(0, 0, 0);
+      }
+      a{
+        text-decoration: none;
+        font-size: 22px;
+        color: blue;
+        font-weight: 600;
+        transition: 0.4s;
+        &:hover{
+          color: red;
+        }
+      }
+    }
+    
+  </style>
+
+</head>
+<body>
+
+  <h1><u>Select a Room to Join</u></h1>
+  <a href="/teachers" target="_blank">Teachers</a><br>
+  <a href="/students" target="_blank">Students</a><br>
+
+  <!-- Creating a Dynamin Room -->
+  <!-- <h2>Create a New Room</h2>
+  <input id="input-room-name">
+  <button onclick="createRoom()">Create Room</button><br />
+
+  <script>
+    function createRoom() {
+      var name = document.getElementById('input-room-name').value;
+      document.body.innerHTML+= `<a href="/room?name=${name}">${name}</a><br /><br />`;
+    }
+  </script> -->
+</body>
+</html>

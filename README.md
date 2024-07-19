@@ -1,4 +1,3 @@
-# Chat-App
 This is a Simple Live Chat Application Using Node.
 Not use Any Framework.
 
